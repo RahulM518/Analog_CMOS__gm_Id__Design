@@ -1,2 +1,2 @@
-Buffer file Has csv files for 180nm (Vds of 0.2,0. and 1.8V)
+This file has csv files for 180nm (Vds of 0.2,0. and 1.8V) currently from Cadence Virtuoso
 # Will later on add for 90 nm and 45 nm PDKs too
