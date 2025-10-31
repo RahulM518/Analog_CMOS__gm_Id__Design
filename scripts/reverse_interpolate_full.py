@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # --- Configuration ---
 # Set the path to your CSV file here
-CSV_FILE_PATH = '/home/rahulm/Desktop/RE___gm_Id____tech/all_0p4V.csv'
+CSV_FILE_PATH = 'all_0p4V.csv'
 
 # Set device type. True for PMOS, False for NMOS.
 # This will select the correct rows to read from the CSV.
