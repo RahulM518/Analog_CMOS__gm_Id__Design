@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 
 # Load the data from the CSV file.
 try:
-    df = pd.read_csv('/all_0p2V.csv', header=None)
+    df = pd.read_csv('all_0p4V.csv', header=None)
 except FileNotFoundError:
-    print("Error: Make sure 'gmId_info_0p2V.csv' is in the same directory as the script.")
+    print("Error: Make sure csv file is in the same directory as the script.")
     exit()
 
 def find_parameters(input_gm_id, input_gmro, plot=False):
