@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # Load the data from the CSV file.
 try:
-    df = pd.read_csv('/home/rahulm/Desktop/RE___gm_Id____tech/all_0p4V.csv', header=None)
+    df = pd.read_csv('all_0p4V.csv', header=None)
 except FileNotFoundError:
     print("Error: Make sure the csv is in the same directory as the script.")
     exit()
